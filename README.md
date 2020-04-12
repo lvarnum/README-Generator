@@ -1,12 +1,14 @@
 
-  # Generate ReadMe  
+  # README Generator  
+
+  ![Generic badge](https://img.shields.io/github/repo-size/lvarnum/README-Generator)  
 
   ## Author Info:  
   ![Profile Picture](https://avatars1.githubusercontent.com/u/51543898?v=4)  
   Email: lvarnum@email.arizona.edu  
 
   ## Project Description:   
-  This application takes a user's project info and generates a README file.  
+  The application allows developers to generate a README by inputting project information into the command line.  
 
   ## Table of contents:  
   [Installation](#installation)  
@@ -16,17 +18,17 @@
   [License](#license)  
 
   ## Installation:<a id=installation></a>   
-  The user must enter their GitHub username and follow the prompts about their project. A README will be automatically generated when all questions have been asnwered.  
+  Follow the command line prompts and a README will be generated at the end.  
 
   ## Usage:<a id=usage></a>  
-  This project can be used when a developer needs help creating a well organized and detailed README for their project.  
+  The project is useful for those who may need help creating a detailed and organized README for their own application.  
 
   ## Tests:<a id=tests></a>  
-  Test that the README file has been created.  
+  N/A
 
   ## Contributing:<a id=contributing></a>  
-  N/A  
+  No contributions necessary.  
 
   ## License:<a id=license></a>  
-  N/A
+  Copyright (c) 2020 Laynah Varnum
   

@@ -2,6 +2,8 @@ function generateMarkdown(data) {
   return  `
   # ${data.title}  
 
+  ![Generic badge](https://img.shields.io/github/repo-size/lvarnum/README-Generator)  
+
   ## Author Info:  
   ![Profile Picture](${data.profile})  
   Email: ${data.email}  
@@ -23,7 +25,7 @@ function generateMarkdown(data) {
   ${data.use}  
 
   ## Tests:<a id=tests></a>  
-  ${data.tests}  
+  ${data.tests}
 
   ## Contributing:<a id=contributing></a>  
   ${data.contribute}  

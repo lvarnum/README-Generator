@@ -2,6 +2,8 @@ const inquirer = require("inquirer");
 const axios = require("axios");
 const generate = require("./utils/generateMarkdown");
 const fs = require("fs");
+const dotenv = require("dotenv");
+dotenv.config();
 
 let email;
 let profile;
@@ -20,14 +22,15 @@ const questions = [
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {
         if (err) throw err;
-        console.log("README Generated!")
-    })
+        console.log("README Generated!");
+    });
 }
 
 function init() {
     inquirer.prompt(questions)
         .then(answers => {
-            axios.get(`https://api.github.com/users/${answers.username}?access_token=496f0199e2f64036cdc23da39c457a58ca1e4676`)
+            const accessToken = process.env.accessToken;
+            axios.get(`https://api.github.com/users/${answers.username}?access_token=${accessToken}`)
                 .then(response => {
                     email = response.data.email;
                     profile = response.data.avatar_url;
