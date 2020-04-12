@@ -8,7 +8,7 @@
   Email: lvarnum@email.arizona.edu  
 
   ## Project Description:   
-  The application allows developers to generate a README by inputting project information into the command line.  
+  The project is designed to automatically generated a README file based on user prompts.  
 
   ## Table of contents:  
   [Installation](#installation)  
@@ -18,10 +18,10 @@
   [License](#license)  
 
   ## Installation:<a id=installation></a>   
-  Follow the command line prompts and a README will be generated at the end.  
+  Follow the prompts and a README will be generated at the end.  
 
   ## Usage:<a id=usage></a>  
-  The project is useful for those who may need help creating a detailed and organized README for their own application.  
+  The application is useful for those who may need help creating a detailed and organized README for their own project.  
 
   ## Tests:<a id=tests></a>  
   N/A

@@ -10,13 +10,14 @@ let profile;
 
 const questions = [
     { message: "What is your GitHub username? ", name: "username" },
+    { message: "What is the name of your repository? ", name: "repo" },
     { message: "What is your project's title? ", name: "title" },
     { message: "Give a description of your project: ", name: "description" },
     { message: "What are the installation steps? ", name: "install" },
-    { message: "Descibe the use for your project: ", name: "use" },
-    { message: "Provide tests for your application: ", name: "tests" },
+    { message: "Descibe the use for your application: ", name: "use" },
+    { message: "Provide any tests for your application: ", name: "tests" },
     { message: "How would you like others to contibute to your project? ", name: "contribute" },
-    { message: "What is the license for this project? ", name: "license" }
+    { message: "Provide a license for this application: ", name: "license" }
 ];
 
 function writeToFile(fileName, data) {
